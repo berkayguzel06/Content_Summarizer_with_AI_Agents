@@ -58,7 +58,7 @@ https://github.com/user-attachments/assets/f706a271-5393-46a3-ba48-29b2fc8d359d
 
 
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](https://github.com/berkayguzel06/Content_Summarizer_with_AI_Agents/blob/main/LICENSE).
 
 ## Contribution
 Feel free to contribute! Open an issue or submit a pull request with improvements or feature suggestions.
