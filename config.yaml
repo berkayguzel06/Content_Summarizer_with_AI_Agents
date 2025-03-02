@@ -1,0 +1,31 @@
+# PDF Extractor Configuration File
+
+# Language Model Settings
+llm:
+  # Model identifier (e.g., openai/gpt-3.5-turbo, gemini/gemini-1.0-pro, anthropic/claude-3-sonnet)
+  model_id: "gemini/gemini-2.0-flash"
+  # API key (can also be set as API_KEY environment variable)
+  api_key: ""
+
+# Output Settings
+output:
+  # Default folder to save summaries
+  default_folder: "summaries"
+  # Output format (markdown or txt)
+  format: "markdown"
+
+# Summary Settings
+summary:
+  # Maximum length of summary in words
+  max_length: 1000
+  # Summary style (concise, detailed, bullet-points, executive)
+  style: "concise"
+
+# Web Extraction Settings
+web:
+  # User agent string for web requests
+  user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+  # Request timeout in seconds
+  timeout: 30
+  # Whether to use article extraction (newspaper3k) or fallback to BeautifulSoup
+  use_article_extraction: true
